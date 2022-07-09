@@ -9,14 +9,14 @@
     <!-- google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
     <title>Code Quiz</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
 
-<!-- Starter Page- Start Quiz/Quit Quiz/ View High Scores -->
+<!-- Starter Page- Start Quiz/ View High Scores -->
 
 <div class="main_page">
     <div class="main_title">
@@ -33,6 +33,39 @@
         <button class="start">Start Quiz!</button>
     </div>
 </div>
+
+<!-- Quiz Page -->
+<div class="quiz">
+    <header>
+        <div class="title">Javascript Quiz</div>
+        <div class="timer">
+            <div class="timer_text">Seconds Left</div>
+            <div class="timer_sec">15</div>
+        </div>
+    </header>
+    <section>
+        <div class="quest_text">What is your favorite dog?</div>
+        <div class="answer_array">
+            <div class="answer">
+                <span>1. Labrador Retrevier</span>
+                <div class="icon right"><i class="fa-solid fa-check"></i></div>
+            </div>
+            <div class="answer">
+                <span>2. Corgi</span>
+                <div class="icon wrong"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <div class="answer">3. Poodle </div>
+            <div class="answer">4. I don't like dogs.</div>
+         </div>
+    </section>
+
+    <!-- Footer of the Quiz page -->
+    <footer>
+        <div class="total_quest"><span>1<p>of</p>2<p>Questions</p></span></div>
+        <button class="next_btn">Next Question!</button>
+    </footer>
+</div>
+
 
 
 
